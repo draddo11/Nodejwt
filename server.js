@@ -1,4 +1,5 @@
 const express = require("expres");
+const { JsonWebTokenError } = require("jsonwebtoken");
 const app = expres();
 const posts=[
 {
@@ -14,5 +15,12 @@ const posts=[
 app.get('/posts',(req,res)=>{
 res.json(post)
 })
+
+app.post('/login', (req,res)=>{
+
+    const username  = req.body.username
+    const user = { name:username}
+
+    jwt.sign(user ,process.env.ACCESS_TOKEN_SECRET)
 
 app.listen(300)
