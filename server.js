@@ -24,4 +24,4 @@ app.post('/login', (req,res)=>{
     jwt.sign(user ,process.env.ACCESS_TOKEN_SECRET)
     res.json({ accessTooken: accessToken})
 
-app.listen(300)
+app.listen(3000);
