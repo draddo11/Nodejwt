@@ -12,7 +12,7 @@ const posts=[
 }
 ]
 
-app.get('/posts',authenticationToken(req,res)=>{
+app.get('/posts', authenticationToken,(req,res)=>{
 
 res.json(posts.filter(post => post.username == req.user.name))
 })
@@ -36,4 +36,4 @@ app.post('/login', (req,res)=>{
          next()
      })
  }
-app.listen(3000)
+app.listen(3000)})
