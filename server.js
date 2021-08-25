@@ -22,5 +22,6 @@ app.post('/login', (req,res)=>{
     const user = { name:username}
 
     jwt.sign(user ,process.env.ACCESS_TOKEN_SECRET)
+    res.json({ accessTooken: accessToken})
 
 app.listen(300)

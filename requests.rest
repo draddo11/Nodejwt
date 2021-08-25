@@ -1,0 +1,7 @@
+send Request
+GET http://localhost:3000/posts
+
+###
+
+Post http://localhost:3000/login
+content 
