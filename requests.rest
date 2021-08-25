@@ -5,4 +5,8 @@ Authorization:  Bearer 03f2e1852c16b112146166706bf2a6e94c91613184d50056f76cc14ff
 ###
 
 Post http://localhost:3000/login
-content 
+content-Type: application/json
+
+{
+    "username":"Kyle"
+}
