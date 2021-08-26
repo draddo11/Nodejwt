@@ -1,6 +1,7 @@
 send Request
 GET http://localhost:3000/posts
-Authorization:  Bearer 03f2e1852c16b112146166706bf2a6e94c91613184d50056f76cc14ffd0a7f968752c8f5fd069e875005fbd21f87b9ecb36b774280e61fd560abbae1d47bd776
+Authorization:  Bearer
+
 
 ###
 
@@ -8,5 +9,10 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "username":"Kyle"
+    "username":"Kofi"
+    
+
 }
+
+
+#  "username":"Kayla",
