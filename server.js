@@ -1,6 +1,6 @@
-const express = require("expres");
-const { JsonWebTokenError } = require("jsonwebtoken");
-const app = expres();
+const express = require("express")
+const { JsonWebTokenError } = require("jsonwebtoken")
+const app = express();
 const posts=[
 {
     username:"Kayla",
