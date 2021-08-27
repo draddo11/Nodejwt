@@ -1,7 +1,6 @@
-send Request
-GET http://localhost:3000/posts
-Authorization:  Bearer
 
+GET http://localhost:3000/posts
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS29maSIsImlhdCI6MTYzMDAyMjI3Mn0.FkiBIUSaJz37JYPwPjaydfSlGK_WLxRsTxEQLBVsEI4
 
 ###
 
