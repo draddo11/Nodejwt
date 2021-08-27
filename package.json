@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon server.js",
-    "serve2": "nodemon server.js"
+    "serve2": "nodemon server2.js"
 
   },
   "keywords": [],
